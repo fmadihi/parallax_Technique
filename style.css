@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div:nth-of-type(1),div:nth-of-type(2),div:nth-of-type(3){
+    width: 100%;
+    height: 569px;
+    background-position: center;
+    box-shadow: inset 5px 5px 100px rgb(0, 0, 0),inset -5px -5px 100px rgb(0, 0, 0);background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div:nth-of-type(1){
+    background-image: url(./image/meizu.jpg);
+}
+    
+div:nth-of-type(2){
+   background-image: url(./image/221357.jpg);
+    position: relative;
+}
+div:nth-of-type(2)>section{
+    padding: 80px 120px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.734);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+div:nth-of-type(3){
+    background-image: url(./image/NLXALN9.jpg);
+}
